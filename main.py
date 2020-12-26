@@ -25,7 +25,8 @@ def run():
     except ValueError:
       print("Please enter an integer. Try again...")
 
-  print('The computer has selected a number bewteen ' + str(startNum) + ' and ' + str(endNum))
+  print('The computer has selected a number bewteen ' + str(startNum) + ' and ' + str(endNum) + '!')
+  print("")
 
   # getting the number of tries the user wants (making sure it's an integer)
   while gettingNumTries:
